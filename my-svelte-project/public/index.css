@@ -699,6 +699,11 @@ video {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
+}
+
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
@@ -707,6 +712,11 @@ video {
 .bg-purple-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(139, 92, 246, var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
 }
 
 .hover\:bg-green-800:hover {
