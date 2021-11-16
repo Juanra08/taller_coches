@@ -3,5 +3,14 @@
 @tailwind utilities;
 
 @layer components {
+    h1{
+        @apply text-center font-semibold text-7xl text-red-500 mb-4;
+    }
 
+    h3{
+        @apply text-center font-semibold text-4xl text-gray-500 mb-4;
+    }
+    body{
+        @apply bg-gray-100;
+    }
 }
